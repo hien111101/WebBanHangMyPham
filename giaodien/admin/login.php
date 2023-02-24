@@ -1,7 +1,7 @@
 <?php
     session_start();
     ob_start();
-    include "../model/connectDB.php";
+    include "../model/config.php";
     include "../model/user.php";
 
     if((isset($_POST['dangnhap']))&&($_POST['dangnhap'])){
